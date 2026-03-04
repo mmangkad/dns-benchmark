@@ -18,7 +18,7 @@ default = []
 
 [dependencies]
 # Async runtime
-tokio = { version = "1.49", features = ["rt-multi-thread", "macros", "sync", "time", "fs", "io-util"] }
+tokio = { version = "1.50", features = ["rt-multi-thread", "macros", "sync", "time", "fs", "io-util"] }
 
 # DNS resolution
 hickory-resolver = { version = "0.25", features = ["tokio"] }
