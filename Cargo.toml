@@ -34,7 +34,7 @@ toml = "1.1"
 # Output formatting
 tabled = { version = "0.20", features = ["ansi"] }
 csv = "1.4"
-quick-xml = { version = "0.39", features = ["serialize"] }
+quick-xml = { version = "0.40", features = ["serialize"] }
 
 # Progress & terminal
 indicatif = { version = "0.18", features = ["tokio"] }
