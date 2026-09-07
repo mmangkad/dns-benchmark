@@ -21,7 +21,7 @@ default = []
 tokio = { version = "1.52", features = ["rt-multi-thread", "macros", "sync", "time", "fs", "io-util"] }
 
 # DNS resolution
-hickory-resolver = { version = "0.25", features = ["tokio"] }
+hickory-resolver = { version = "0.26", features = ["tokio"] }
 
 # CLI
 clap = { version = "4.6", features = ["derive", "env", "wrap_help"] }
